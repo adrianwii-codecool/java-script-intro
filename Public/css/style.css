@@ -1,0 +1,35 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#quiz-content {
+    width: 40%;
+}
+
+#question {
+    padding: 0.7em;
+    border-radius: 1em;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+.questions {
+    width: 100%;
+}
+
+.questions > div {
+    padding: 0.7em;
+    border-radius: 1em;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 1em;
+}
