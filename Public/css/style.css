@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
 }
+
 #quiz-content {
     width: 40%;
 }
@@ -22,14 +23,23 @@
     text-align: center;
 }
 
-.questions {
+.answers {
     width: 100%;
 }
 
-.questions > div {
+.answers > div {
     padding: 0.7em;
     border-radius: 1em;
     box-sizing: border-box;
     border: 1px solid black;
     margin: 1em;
+}
+
+#random {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.answers > div:hover {
+    background-color: chartreuse;
 }
